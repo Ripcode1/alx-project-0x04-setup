@@ -40,19 +40,3 @@ const Header: React.FC = () => {
 };
 
 export default Header;
-```
-
-**Key fix:** Line 4 - removed the double quotes typo, changed to single import statement.
-
----
-
-**Your file structure should be:**
-```
-alx-project-0x05/
-├── context/
-│   └── CountContext.tsx
-├── components/
-│   └── layout/              ← SINGULAR "layout"
-│       └── Header.tsx
-└── pages/
-    └── _app.tsx
